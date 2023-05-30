@@ -12,6 +12,7 @@ function App() {
             <div className={styles.weHappy}>
                 <Route exact path='/' component={LandingPage} />
                 <Route path='/home' component={Home} />
+                <Route path='/dogs/:id' component={DogDetail}/>
             </div>
         </BrowserRouter>
     );
